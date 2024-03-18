@@ -5,11 +5,16 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "test:all": "yarn test:cjs && yarn test:esm",
+    "test:all": "yarn test:cjs && yarn test:esm && yarn test:ts",
     "test:cjs": "node ./src/test.cjs",
-    "test:esm": "node ./src/test.js"
+    "test:esm": "node ./src/test.js",
+    "test:ts": "node --loader ts-node/esm --no-warnings ./src/test.ts"
   },
   "dependencies": {
-    "calculate-utils-test": "^0.0.0-both"
+    "calculate-utils-test": "^0.0.0-typescript"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
   }
 }
