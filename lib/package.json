@@ -1,5 +1,6 @@
 {
   "name": "calculate-utils-test",
-  "version": "0.0.0-onlyCJS",
+  "type": "module",
+  "version": "0.0.0-onlyESM",
   "main": "src/index.js"
 }

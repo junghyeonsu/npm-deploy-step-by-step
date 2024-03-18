@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-calculate-utils-test@0.0.0-onlyCJS:
-  version "0.0.0-onlyCJS"
-  resolved "https://registry.yarnpkg.com/calculate-utils-test/-/calculate-utils-test-0.0.0-onlyCJS.tgz#4d768bd202eacbf3f4ba764931d545ea999ab40c"
-  integrity sha512-3lFk8Vi4b6kFrOdgZewqxc339N9LlFzPrU1IPNzZosQIiCptfNYnEdAPsApZNwTH/lUEfgw96k4oykEI4a/0zQ==
+calculate-utils-test@0.0.0-onlyESM:
+  version "0.0.0-onlyESM"
+  resolved "https://registry.yarnpkg.com/calculate-utils-test/-/calculate-utils-test-0.0.0-onlyESM.tgz#df1efd69ab5a2fec738c9b4e032317cd7b4275c4"
+  integrity sha512-vAHy6AAXhhDFhcDHuJzxW7MBJsJsqkDp9DNynW9PpS+br62iws/D+4i6XFS3wr12XPPcnmU3cclAqVI4O4yj3Q==
