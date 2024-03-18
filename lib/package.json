@@ -1,6 +1,19 @@
 {
   "name": "calculate-utils-test",
   "type": "module",
-  "version": "0.0.0-onlyESM",
-  "main": "src/index.js"
+  "version": "0.0.0-both",
+  "main": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": ["src", "dist"],
+  "scripts": {
+    "build": "node ./build.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.2"
+  }
 }
