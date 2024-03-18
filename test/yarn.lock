@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-calculate-utils-test@^0.0.0-onlyCJS:
+calculate-utils-test@0.0.0-onlyCJS:
   version "0.0.0-onlyCJS"
   resolved "https://registry.yarnpkg.com/calculate-utils-test/-/calculate-utils-test-0.0.0-onlyCJS.tgz#4d768bd202eacbf3f4ba764931d545ea999ab40c"
   integrity sha512-3lFk8Vi4b6kFrOdgZewqxc339N9LlFzPrU1IPNzZosQIiCptfNYnEdAPsApZNwTH/lUEfgw96k4oykEI4a/0zQ==
