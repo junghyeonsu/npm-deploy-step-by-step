@@ -10,6 +10,6 @@
     "test:esm": "node ./src/test.js"
   },
   "dependencies": {
-    "calculate-utils-test": "0.0.0-onlyCJS"
+    "calculate-utils-test": "0.0.0-onlyESM"
   }
 }
