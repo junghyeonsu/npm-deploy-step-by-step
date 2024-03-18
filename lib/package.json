@@ -1,19 +1,24 @@
 {
   "name": "calculate-utils-test",
   "type": "module",
-  "version": "0.0.0-both",
+  "version": "0.0.0-typescript",
   "main": "dist/index.js",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     }
   },
   "files": ["src", "dist"],
   "scripts": {
-    "build": "node ./build.js"
+    "build": "yarn clean && yarn build:js && yarn build:dts",
+    "build:js": "node ./build.js",
+    "build:dts": "tsc --emitDeclarationOnly",
+    "clean": "rm -rf dist"
   },
   "devDependencies": {
-    "esbuild": "^0.20.2"
+    "esbuild": "^0.20.2",
+    "typescript": "^5.4.2"
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "sources": ["../src/index.js"],
-  "sourcesContent": ["const add = (a, b) => a + b;\nconst subtract = (a, b) => a - b;\nconst multiply = (a, b) => a * b;\nconst divide = (a, b) => a / b;\n\nexport { add, subtract, multiply, divide };\n"],
-  "mappings": ";AAAA,IAAM,MAAM,CAAC,GAAG,MAAM,IAAI;AAC1B,IAAM,WAAW,CAAC,GAAG,MAAM,IAAI;AAC/B,IAAM,WAAW,CAAC,GAAG,MAAM,IAAI;AAC/B,IAAM,SAAS,CAAC,GAAG,MAAM,IAAI;",
+  "sources": ["../src/index.ts"],
+  "sourcesContent": ["const add = (a: number, b: number): number => a + b;\nconst subtract = (a: number, b: number): number => a - b;\nconst multiply = (a: number, b: number): number => a * b;\nconst divide = (a: number, b: number): number => a / b;\n\nexport { add, subtract, multiply, divide };\n"],
+  "mappings": ";AAAA,IAAM,MAAM,CAAC,GAAW,MAAsB,IAAI;AAClD,IAAM,WAAW,CAAC,GAAW,MAAsB,IAAI;AACvD,IAAM,WAAW,CAAC,GAAW,MAAsB,IAAI;AACvD,IAAM,SAAS,CAAC,GAAW,MAAsB,IAAI;",
   "names": []
 }
