@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.js"],
+  "sourcesContent": ["const add = (a, b) => a + b;\nconst subtract = (a, b) => a - b;\nconst multiply = (a, b) => a * b;\nconst divide = (a, b) => a / b;\n\nexport { add, subtract, multiply, divide };\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAAM,MAAM,CAAC,GAAG,MAAM,IAAI;AAC1B,IAAM,WAAW,CAAC,GAAG,MAAM,IAAI;AAC/B,IAAM,WAAW,CAAC,GAAG,MAAM,IAAI;AAC/B,IAAM,SAAS,CAAC,GAAG,MAAM,IAAI;",
+  "names": []
+}
