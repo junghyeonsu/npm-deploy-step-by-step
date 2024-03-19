@@ -1,0 +1,15 @@
+{
+  "name": "npm-deploy-step-by-step-test",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test:all": "yarn test:cjs && yarn test:esm",
+    "test:cjs": "node ./src/test.cjs",
+    "test:esm": "node ./src/test.js"
+  },
+  "dependencies": {
+    "calculate-utils-test": "0.0.0-onlyCJS"
+  }
+}
